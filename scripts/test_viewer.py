@@ -1,10 +1,10 @@
 """Real browser smoke check for exported geometry and interactive controls."""
 from playwright.sync_api import sync_playwright
 from pathlib import Path
-import json,time
+import json,time,os,shutil
 P=Path(__file__).resolve().parents[1];errors=[];result={}
 with sync_playwright() as p:
- browser=p.chromium.launch(executable_path='/opt/google/chrome/chrome',headless=True,args=['--no-sandbox','--use-angle=swiftshader','--enable-webgl','--disable-dev-shm-usage'])
+ browser=p.chromium.launch(executable_path=os.getenv('BAHEN_CHROME') or shutil.which('google-chrome') or shutil.which('chromium') or '/opt/google/chrome/chrome',headless=True,args=['--no-sandbox','--use-angle=swiftshader','--enable-webgl','--disable-dev-shm-usage'])
  page=browser.new_page(viewport={'width':1440,'height':1000},device_scale_factor=1)
  page.on('console',lambda m:print(m.type,m.text,flush=True) if m.type=='error' else None)
  page.on('pageerror',lambda e:errors.append(str(e)))

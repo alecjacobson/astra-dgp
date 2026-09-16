@@ -1,0 +1,157 @@
+{
+  "initial": {
+    "loaded": true,
+    "view": "exterior",
+    "cutaway": false,
+    "meshes": 76,
+    "camera": [
+      83.99999999999999,
+      62.00000000000001,
+      87
+    ],
+    "drawCalls": 85,
+    "triangles": 389977,
+    "visibleMeshes": 76,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "east": {
+    "loaded": true,
+    "view": "east",
+    "cutaway": false,
+    "meshes": 76,
+    "camera": [
+      11.999999999999996,
+      1.75,
+      0.8000000000000025
+    ],
+    "drawCalls": 74,
+    "triangles": 375973,
+    "visibleMeshes": 76,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "landing": {
+    "loaded": true,
+    "view": "landing",
+    "cutaway": false,
+    "meshes": 76,
+    "camera": [
+      18.8,
+      5.849999999999998,
+      2.1000000000000014
+    ],
+    "drawCalls": 75,
+    "triangles": 377497,
+    "visibleMeshes": 76,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "cutaway": {
+    "loaded": true,
+    "view": "cutaway",
+    "cutaway": true,
+    "meshes": 76,
+    "camera": [
+      67.00000000000001,
+      63.00000000000001,
+      76.99999999999999
+    ],
+    "drawCalls": 64,
+    "triangles": 367713,
+    "visibleMeshes": 58,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "west": {
+    "loaded": true,
+    "view": "west",
+    "cutaway": false,
+    "meshes": 76,
+    "camera": [
+      16.000000000000014,
+      1.799999999999998,
+      0.7000000000000002
+    ],
+    "drawCalls": 67,
+    "triangles": 385836,
+    "visibleMeshes": 76,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "controls": "view presets, landscape checkbox and cutaway checkbox respond",
+  "keyboard_navigation": true,
+  "screenshot_download_bytes": 652460,
+  "standalone_offline_load": {
+    "loaded": true,
+    "view": "exterior",
+    "cutaway": false,
+    "meshes": 76,
+    "camera": [
+      83.99999999999999,
+      62.00000000000001,
+      87
+    ],
+    "drawCalls": 85,
+    "triangles": 389977,
+    "visibleMeshes": 76,
+    "layers": [
+      "01_Site",
+      "02_Envelope",
+      "03_Atrium_structure",
+      "04_Heritage_Koffler_wall",
+      "05_Circulation",
+      "06_Retained_house",
+      "07_Roofs",
+      "08_Interior_details",
+      "09_Landscape"
+    ]
+  },
+  "mobile_resize": true,
+  "page_errors": []
+}

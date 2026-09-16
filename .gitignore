@@ -4,3 +4,5 @@ references/
 __pycache__/
 node_modules/
 .stop-publisher
+viewer/node_modules
+renders/r[0-9]*
