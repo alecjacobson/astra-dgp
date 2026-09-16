@@ -6,8 +6,8 @@ s.render.use_persistent_data=True;s.cycles.samples=int(os.getenv('BAHEN_SAMPLES'
 try:
  prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type='OPTIX';prefs.get_devices()
  for d in prefs.devices:d.use=d.type=='OPTIX'
- s.cycles.device='GPU'
-except Exception:pass
+ s.cycles.device='GPU' if any(d.type=='OPTIX' for d in prefs.devices) else 'CPU'
+except Exception:s.cycles.device='CPU'
 for v in views:
  s.camera=bpy.data.objects[v];s.view_settings.exposure=.35 if v not in ['exterior','street','overview'] else -.5
  s.render.filepath=str(P/'renders'/f'{os.getenv("BAHEN_REV","r01")}-{v}.png');bpy.ops.render.render(write_still=True)

@@ -1,0 +1,12 @@
+{
+  "format": "glTF 2.0 binary",
+  "bytes": 23863976,
+  "meshes": 4565,
+  "nodes": 4575,
+  "materials": 31,
+  "embedded_images": 7,
+  "required_extensions": [],
+  "all_accessor_bounds_finite": true,
+  "all_resources_embedded": true,
+  "checks_passed": true
+}

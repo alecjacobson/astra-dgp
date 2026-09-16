@@ -1,0 +1,15 @@
+{
+  "bytes": 23863976,
+  "objects": 4575,
+  "material_tiles": [
+    "cream-brick",
+    "concrete",
+    "wood",
+    "terrazzo",
+    "heritage-brick",
+    "limestone",
+    "red-brick"
+  ],
+  "native_materials": "Procedural in .blend",
+  "portable_materials": "Authored tiled base color; no photographic textures or baked lighting"
+}

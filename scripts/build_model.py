@@ -366,8 +366,8 @@ scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.samples=48;sce
 try:
  prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type='OPTIX';prefs.get_devices()
  for d in prefs.devices:d.use=d.type=='OPTIX'
- scene.cycles.device='GPU'
-except Exception:pass
+ scene.cycles.device='GPU' if any(d.type=='OPTIX' for d in prefs.devices) else 'CPU'
+except Exception:scene.cycles.device='CPU'
 world=bpy.data.worlds.new('Toronto daylight');scene.world=world;world.use_nodes=True;nd=world.node_tree.nodes;lk=world.node_tree.links;sky=nd.new('ShaderNodeTexSky');sky.sky_type='NISHITA';sky.sun_elevation=math.radians(42);sky.sun_rotation=math.radians(145);sky.altitude=.1;nd.get('Background').inputs['Strength'].default_value=.18;lk.new(sky.outputs[0],nd.get('Background').inputs[0])
 # Broad interior bounced illumination, preserving visible directional skylight.
 for x in [-25,-10,5,20]:area('Atrium skylight fill',(x,0,13.5),1200,7,(.82,.9,1),(x,0,0))
