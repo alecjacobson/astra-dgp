@@ -1,0 +1,30 @@
+{
+  "gallery_status": 200,
+  "comparisons": [
+    {
+      "path": "renders/comparison-0030.png",
+      "status": 200
+    },
+    {
+      "path": "renders/comparison-0330.png",
+      "status": 200
+    },
+    {
+      "path": "renders/comparison-0630.png",
+      "status": 200
+    },
+    {
+      "path": "renders/comparison-0730.png",
+      "status": 200
+    },
+    {
+      "path": "renders/comparison-1430.png",
+      "status": 200
+    },
+    {
+      "path": "renders/comparison-1452.png",
+      "status": 200
+    }
+  ],
+  "passed": true
+}

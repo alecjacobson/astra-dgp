@@ -5,15 +5,15 @@
       "loaded": true,
       "view": "exterior",
       "cutaway": false,
-      "meshes": 76,
+      "meshes": 117,
       "camera": [
         83.99999999999999,
         62.00000000000001,
         87
       ],
-      "drawCalls": 85,
-      "triangles": 389989,
-      "visibleMeshes": 76,
+      "drawCalls": 130,
+      "triangles": 870652,
+      "visibleMeshes": 117,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -23,22 +23,25 @@
         "06_Retained_house",
         "07_Roofs",
         "08_Interior_details",
-        "09_Landscape"
+        "09_Landscape",
+        "11_Video_central_circulation",
+        "12_Video_street_and_entry",
+        "13_Video_lecture_theatre"
       ]
     },
     "landing": {
       "loaded": true,
       "view": "landing",
       "cutaway": false,
-      "meshes": 76,
+      "meshes": 117,
       "camera": [
-        18.8,
-        5.849999999999998,
-        2.1000000000000014
+        -11.5,
+        5.800000000000001,
+        12.8
       ],
-      "drawCalls": 75,
-      "triangles": 377509,
-      "visibleMeshes": 76,
+      "drawCalls": 116,
+      "triangles": 866896,
+      "visibleMeshes": 117,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -48,7 +51,10 @@
         "06_Retained_house",
         "07_Roofs",
         "08_Interior_details",
-        "09_Landscape"
+        "09_Landscape",
+        "11_Video_central_circulation",
+        "12_Video_street_and_entry",
+        "13_Video_lecture_theatre"
       ]
     }
   },
@@ -58,15 +64,15 @@
       "loaded": true,
       "view": "exterior",
       "cutaway": false,
-      "meshes": 76,
+      "meshes": 117,
       "camera": [
         83.99999999999999,
         62.00000000000001,
         87
       ],
-      "drawCalls": 85,
-      "triangles": 389989,
-      "visibleMeshes": 76,
+      "drawCalls": 130,
+      "triangles": 870652,
+      "visibleMeshes": 117,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -76,22 +82,25 @@
         "06_Retained_house",
         "07_Roofs",
         "08_Interior_details",
-        "09_Landscape"
+        "09_Landscape",
+        "11_Video_central_circulation",
+        "12_Video_street_and_entry",
+        "13_Video_lecture_theatre"
       ]
     },
     "landing": {
       "loaded": true,
       "view": "landing",
       "cutaway": false,
-      "meshes": 76,
+      "meshes": 117,
       "camera": [
-        18.8,
-        5.849999999999998,
-        2.1000000000000014
+        -11.5,
+        5.800000000000001,
+        12.8
       ],
-      "drawCalls": 75,
-      "triangles": 377509,
-      "visibleMeshes": 76,
+      "drawCalls": 116,
+      "triangles": 866896,
+      "visibleMeshes": 117,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -101,14 +110,17 @@
         "06_Retained_house",
         "07_Roofs",
         "08_Interior_details",
-        "09_Landscape"
+        "09_Landscape",
+        "11_Video_central_circulation",
+        "12_Video_street_and_entry",
+        "13_Video_lecture_theatre"
       ]
     }
   },
   "sha256": {
-    "bahen-centre.blend": "9f9259bc7c7980452da500db324750c3d422a97d6ec16b1e3ae2a079aadfa548",
-    "bahen-centre.glb": "74979613e893cfb15686e2a3aff8725e674ca04f1fd7238db906ddca04a3467e",
-    "bahen-centre-viewer.html": "f3ce12ba286130689a631dc13eb8429d19521960c736aa0ee380891ea52ede9a"
+    "bahen-centre.blend": "49d841ff0f45d7dbbd8a592251633ad03d993d982ea98dd9823ddff0b47c6151",
+    "bahen-centre.glb": "0bd65f722aeb897a81d73d47381b9fdd20ba7d161d13f3f611ec6e3f72e09d1d",
+    "bahen-centre-viewer.html": "f9490804cda1da2d2dc24dc68cd8b1ddb68df1d3d9033e0087984d14558c0e19"
   },
   "page_errors": [],
   "passed": true
