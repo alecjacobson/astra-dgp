@@ -1,0 +1,92 @@
+{
+  "revision": "r20",
+  "native_scene_sha256": "bbd5bbdf6614cbc4fb58709ba55f3de85986f53a48d63c7ec3d1900b56691f72",
+  "renderer": "Blender 4.5.3 Cycles, OptiX,96samples,denoised",
+  "renders": {
+    "final-atrium_east.png": {
+      "pixels": [
+        1920,
+        1371
+      ],
+      "sha256": "466efe73fb6b88f1a82b8bc19c1c7402ec683e03e2de4332269ce53da7c78e32"
+    },
+    "final-atrium_west.png": {
+      "pixels": [
+        1920,
+        1371
+      ],
+      "sha256": "d9f96c5ab6fb261fb49ee8e5762e75fb5546b89b6d9bc8d019312aab3a8df1c4"
+    },
+    "final-audit_lobby_offset.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "b1d8f7e5439600eb3751398005e7e10a3d17c4f57eec093b0e36f3315bfd036b"
+    },
+    "final-exterior.png": {
+      "pixels": [
+        1920,
+        1371
+      ],
+      "sha256": "3b50659b242c78310cf5b14ae5b34fca2e462a2bd0758798f4fcc429c34f8473"
+    },
+    "final-landing.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "8ed50fc18a3577d07b4fe977e05438e76043892c44d3fcfb959966511b3b7eff"
+    },
+    "final-video_0030.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "a37728867919439bbd09ea07673cd68478a28665c63032e8f84f65e27607d75c"
+    },
+    "final-video_0330.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "7b4b964a08bda87a8cee67da1241a3b22e0f1f1f5612d9e67621f413ef1c02e8"
+    },
+    "final-video_0630.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "db0b331c4ca53456dba13066dc0f5b8d6f9d631d6ae2b782ad9fde6231cb95c7"
+    },
+    "final-video_0730.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "11859646886212214e37c579c9fc88ae1ceabef698325428513bc4883d138779"
+    },
+    "final-video_1430.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "8ed50fc18a3577d07b4fe977e05438e76043892c44d3fcfb959966511b3b7eff"
+    },
+    "final-video_1452.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "08f843786de016e16c1dfaa90a1c84c6bb64ff010cb1c01306b4a7bd42ccc6ad"
+    },
+    "final-video_1452_offset.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "50d67eb16b0f1cb21e25fde9ba9706ed1a0e47e47c851e91b8491702d0d3c105"
+    }
+  },
+  "offset_views": "Alternative audit angles of the same continuous geometry, not claimed to match additional source timestamps"
+}

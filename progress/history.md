@@ -35,3 +35,5 @@
 - 20260916-194057 UTC — [browser-mobile-stair.png](20260916-194057.png)
 
 - 20260916-195100 UTC — [browser-cutaway.png](20260916-195100.png)
+
+- 20260916-195219 UTC — [Final approved interactive stair](20260916-195219.png)

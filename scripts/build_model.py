@@ -395,6 +395,7 @@ for o in bpy.data.objects:
   o.visible_camera=False;o.visible_glossy=False;o.visible_transmission=False
 # Neutral photographic backdrop for exterior presentation, sky kept for lighting.
 n=world.node_tree.nodes;l=world.node_tree.links;bg=n.get('Background');out=n.get('World Output');lp=n.new('ShaderNodeLightPath');neutral=n.new('ShaderNodeBackground');neutral.inputs[0].default_value=(.68,.72,.72,1);neutral.inputs[1].default_value=.65;mx=n.new('ShaderNodeMixShader');l.new(lp.outputs['Is Camera Ray'],mx.inputs[0]);l.new(bg.outputs[0],mx.inputs[1]);l.new(neutral.outputs[0],mx.inputs[2]);l.new(mx.outputs[0],out.inputs[0])
+exec(compile((P/'scripts/polish_model.py').read_text(),str(P/'scripts/polish_model.py'),'exec'))
 # Friendly initial Blender view.
 for a in bpy.context.screen.areas:
  if a.type=='VIEW_3D':

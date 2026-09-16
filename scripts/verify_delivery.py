@@ -1,7 +1,7 @@
 """Load exact final files offline and the public GitHub Pages deployment."""
 from playwright.sync_api import sync_playwright
 from pathlib import Path
-import os,shutil,json,hashlib
+import os,shutil,json,hashlib,requests
 P=Path(__file__).resolve().parents[1];r={};errors=[]
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path=os.getenv('BAHEN_CHROME') or shutil.which('google-chrome') or '/opt/google/chrome/chrome',headless=True,args=['--no-sandbox','--use-angle=swiftshader','--enable-webgl'])
@@ -14,11 +14,15 @@ with sync_playwright() as p:
   assert r[name]['state']['meshes']>0
   assert page.locator('[data-view="room2133"]').count()==1
   assert page.locator('[data-view="theatre"]').count()==1
-  expected=json.loads((P/'review/glb-audit.json').read_text())['meshes']
-  assert f'{expected:,}' in page.locator('#modelstats').inner_text(),'Stale or different model loaded'
+  expected=json.loads((P/'review/baked-glb-audit.json').read_text())['source_components']
+  assert r[name]['state']['sourceComponents']==expected,'Stale or different model loaded'
   page.locator('[data-view="room2133"]').click();page.wait_for_timeout(1000);assert page.evaluate('window.bahen.state.view')=='room2133'
   page.locator('[data-view="landing"]').click();page.wait_for_timeout(1000);r[name]['landing']=page.evaluate('window.bahen.state');assert r[name]['landing']['view']=='landing'
   if name=='public':page.screenshot(path=str(P/'renders/public-viewer.png'),timeout=90000)
   page.close();print(name,'passed',flush=True);(P/'review/delivery-check.json').write_text(json.dumps(r,indent=2))
  b.close()
-r['sha256']={f:hashlib.sha256((P/f).read_bytes()).hexdigest() for f in ['bahen-centre.blend','bahen-centre.glb','bahen-centre-viewer.html']};r['page_errors']=errors;r['passed']=not errors;(P/'review/delivery-check.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2));assert not errors
+expected_glb=hashlib.sha256((P/'viewer/bahen-lit.glb').read_bytes()).hexdigest()
+remote=requests.get('https://alecjacobson.github.io/astra-dgp/viewer/bahen-lit.glb?sha='+expected_glb[:12],timeout=120);remote.raise_for_status()
+assert hashlib.sha256(remote.content).hexdigest()==expected_glb,'Public GLB bytes differ from the approved asset'
+r['public_asset_matches_local']=True
+r['sha256']={f:hashlib.sha256((P/f).read_bytes()).hexdigest() for f in ['bahen-centre.blend','bahen-centre.glb','bahen-centre-viewer.html','viewer/bahen-lit.glb']};r['page_errors']=errors;r['passed']=not errors;(P/'review/delivery-check.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2));assert not errors

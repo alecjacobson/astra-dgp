@@ -1,7 +1,7 @@
 """Real browser smoke check for exported geometry and interactive controls."""
 from playwright.sync_api import sync_playwright
 from pathlib import Path
-import json,time,os,shutil
+import json,time,os,shutil,hashlib
 P=Path(__file__).resolve().parents[1];errors=[];result={}
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path=os.getenv('BAHEN_CHROME') or shutil.which('google-chrome') or shutil.which('chromium') or '/opt/google/chrome/chrome',headless=True,args=['--no-sandbox','--use-angle=swiftshader','--enable-webgl','--disable-dev-shm-usage'])
@@ -9,11 +9,12 @@ with sync_playwright() as p:
  page.on('console',lambda m:print(m.type,m.text,flush=True) if m.type=='error' else None)
  page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://127.0.0.1:8766/viewer/index.html',wait_until='load');page.wait_for_function('window.bahen?.state.loaded',timeout=120000);page.wait_for_timeout(2500)
- result['initial']=page.evaluate('window.bahen.state');print(result['initial'],flush=True);page.screenshot(path=str(P/'renders/browser-exterior.png'))
+ result['initial']=page.evaluate('window.bahen.state');print(result['initial'],flush=True);page.screenshot(path=str(P/'renders/browser-landing.png'))
+ page.locator('[data-view="exterior"]').click();page.wait_for_timeout(1500);page.screenshot(path=str(P/'renders/browser-exterior.png'))
  for name in ['east','landing','room2133','theatre','boards','street','cutaway','west']:
   page.locator(f'[data-view="{name}"]').click();page.wait_for_timeout(1500);state=page.evaluate('window.bahen.state');assert state['view']==name;result[name]=state
   if name=='cutaway':assert state['visibleMeshes']<result['initial']['visibleMeshes'], 'Cutaway did not change visibility'
-  if name in ['east','cutaway','landing']:page.screenshot(path=str(P/f'renders/browser-{name}.png'))
+  if name in ['east','cutaway','landing','room2133','theatre','boards','street']:page.screenshot(path=str(P/f'renders/browser-{name}.png'))
  page.locator('[data-view="exterior"]').click();visible_before=page.evaluate('window.bahen.state.visibleMeshes');page.locator('#trees').uncheck();assert page.evaluate('window.bahen.state.visibleMeshes')<visible_before;page.locator('#cut').check();assert page.evaluate('window.bahen.state.cutaway');result['controls']='view presets, landscape checkbox and cutaway checkbox respond'
  page.locator('#info').click();assert page.locator('#about').is_visible();page.locator('#close').click()
  page.locator('#hide').click();assert page.locator('#panel').get_attribute('class')=='collapsed';page.locator('#hide').click()
@@ -22,6 +23,9 @@ with sync_playwright() as p:
  d=download.value;d.save_as(str(P/'review/browser-snapshot.png'));result['screenshot_download_bytes']=(P/'review/browser-snapshot.png').stat().st_size
  # Portability: open standalone HTML via file URI with external network blocked.
  offline=browser.new_page(viewport={'width':1000,'height':800});offline.on('pageerror',lambda e:errors.append(str(e)));offline.route('http**://**/*',lambda route:route.abort());offline.goto((P/'bahen-centre-viewer.html').as_uri(),wait_until='load');offline.wait_for_function('window.bahen?.state.loaded',timeout=120000);result['standalone_offline_load']=offline.evaluate('window.bahen.state');offline.close()
- page.set_viewport_size({'width':390,'height':844});page.locator('#hide').click();page.screenshot(path=str(P/'review/browser-mobile.png'));result['mobile_resize']=True
+ page.set_viewport_size({'width':390,'height':844});page.wait_for_timeout(1000);page.screenshot(path=str(P/'review/browser-mobile.png'));result['mobile_resize']=True
+ page.locator('#hide').click();assert page.locator('[data-view="room2133"]').is_visible();page.locator('[data-view="room2133"]').click();assert not page.locator('[data-view="room2133"]').is_visible();page.screenshot(path=str(P/'renders/browser-mobile-room.png'));result['mobile_controls']='open, select view, close without obscuring model'
+ phone=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1);phone.on('pageerror',lambda e:errors.append(str(e)));phone.goto('http://127.0.0.1:8766/viewer/');phone.wait_for_function('window.bahen?.state.loaded',timeout=120000);phone.wait_for_timeout(1000);result['fresh_mobile']=phone.evaluate('window.bahen.state');assert result['fresh_mobile']['textureMode']=='compact';assert result['fresh_mobile']['maxAtlasSize']<=1024;phone.screenshot(path=str(P/'renders/browser-mobile-stair.png'));phone.close()
  result['page_errors']=errors;browser.close()
+result['asset_sha256']=hashlib.sha256((P/'viewer/bahen-lit.glb').read_bytes()).hexdigest()
 (P/'review/viewer-test.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2));assert not errors

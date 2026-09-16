@@ -1,5 +1,7 @@
 # Render / judge / refine record
 
+The final R20 record below supersedes the earlier video-access and placeholder-material limitations. Earlier sections are retained as dated iteration history.
+
 All renders are generated from actual editable Blender geometry. No generated image is used as a substitute for a model render. References are linked in sources.json and retained locally, outside the public repository.
 
 | Pass | Evidence / finding | Geometry or rendering change | Follow-up |
@@ -36,3 +38,16 @@ The full original MP4 was recovered17:40UTC on2026-09-16 after direct yt-dlp att
 Limits retained explicitly: no measured dimensions, no full camera calibration, concealed rooms and overall footprint are inferred. Some video frames are much more closely reproduced than others. The source presenter is excluded from architectural matching; text on notices/monitor is abstracted. Browser materials/lighting are simplified relative to Cycles.
 
 The final browser screenshot caught an additional export issue: glTF had substituted white for unsupported procedural colors on the central timber rails and theatre desks. Export now converts unsupported procedural colors to their authored palette swatches, while retaining the seven tiled materials. The GLB audit explicitly checks the three dark fallback materials. This changes only portable material export, not the reviewed native geometry.
+
+
+## R15–R20 — final polish
+
+- **R15:** rebuilt the near stair lobby as connected wall, steel screen, board, bin and bench geometry; removed the giant ceiling wedge; replaced hard sun bands with soft light; introduced neutral cream finishes and silver hardware.
+- **R16:** extracted actual monitor and noticeboard surfaces from the MP4, recorded rectification coordinates, and added a distinct exterior weather enclosure around the internal channel-glass rooms.
+- **R17:** added the source lobby noticeboard and recycling labels; restored room2139plaque; warmed theatre walls, modeled its luminous recess, revised source cameras and smoothed the entry mat.
+- **R18–R19:** refined the board/bin hierarchy, polished terrazzo and timber, added the observed pendant and checked two offset cameras. The render loop caught a bin depth error before delivery.
+- **R20:** corrected that depth, closed the stair-floor gap, completed continuous rebated door jambs and quieter aggregate. Eleven1920-pixel/96sample native renders passed the independent finite quality gate. Geometry is frozen for the final interactive lighting export.
+
+The viewer finish replaces the overlay panel with a separate control rail, reserves high-resolution baked illumination for close views, and uses embedded source textures for visible printed details. The editable native scene and ordinary GLB remain separate from the lighting-baked interactive GLB. [Final review](judge-final-polish.md) · [Render manifest](final-render-manifest.json) · [Surface provenance](texture-provenance.json).
+
+Final browser comparison exposed inward-facing theatre chair backs that rendered white in Cycles but baked black. The portable exporters now repair proven negative-volume closed meshes (207 chair backs); plain white seat surfaces remain PBR to avoid atlas seams. A fresh browser comparison checks that correction. The cutaway uses neutral site/foundation shading while retaining the architecture’s baked materials, so hidden-floor shadows do not obscure the structure.

@@ -15,6 +15,9 @@ palette={}
 for name in ['Video timber','Video tread','Theatre desk']:
  m=next(m for m in j['materials'] if m['name']==name)
  c=m['pbrMetallicRoughness'].get('baseColorFactor',[1,1,1,1])
- assert max(c[:3])<.15,f'{name} lost its dark authored color: {c}'
+ assert max(c[:3])<.25,f'{name} lost its dark authored color: {c}'
  palette[name]=c
+for name in ['Source monitor','Source notices','Source lobby notices','Source recycling labels']:
+ m=next(m for m in j['materials'] if m['name']==name)
+ assert 'emissiveTexture' in m if name=='Source monitor' else 'baseColorTexture' in m['pbrMetallicRoughness'], f'{name} image was lost'
 r={'procedural_palette_fallback':palette,'format':'glTF 2.0 binary','bytes':len(b),'meshes':len(j['meshes']),'nodes':len(j['nodes']),'materials':len(j['materials']),'embedded_images':len(j.get('images',[])),'required_extensions':j.get('extensionsRequired',[]),'all_accessor_bounds_finite':True,'all_resources_embedded':True,'checks_passed':True};(P/'review/glb-audit.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2))

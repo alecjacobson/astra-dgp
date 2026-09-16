@@ -11,7 +11,7 @@ for key,source,time in rows:
  out=P/'renders'/f'comparison-{key}.png'
  subprocess.run(['python',str(P/'scripts/compare_frames.py'),str(src),str(final),str(out),'--time',time,'--revision',a.revision+' — modeled architecture','--note','Source: U of T APS162 tour, GGaJsGu_5zA. Dimensions/layout inferred; presenter omitted.'],check=True)
  manifest.append({'timestamp':time,'source':str(src.relative_to(P)),'render':str(final.relative_to(P)),'comparison':str(out.relative_to(P)),'revision':a.revision})
-for name in ['exterior','atrium_east','atrium_west']:
+for name in ['exterior','atrium_east','atrium_west','audit_lobby_offset','video_1452_offset']:
  src=P/'renders'/f'{a.revision}-{name}.png'
  if src.exists():shutil.copy2(src,P/'renders'/f'final-{name}.png')
 shutil.copy2(P/'renders/final-video_1430.png',P/'renders/final-landing.png')

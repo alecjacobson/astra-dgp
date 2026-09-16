@@ -1,0 +1,17 @@
+{
+  "source_components": 7456,
+  "source_revision": "r20",
+  "source_blend_sha256": "bbd5bbdf6614cbc4fb58709ba55f3de85986f53a48d63c7ec3d1900b56691f72",
+  "bytes": 59593116,
+  "sha256": "bad12eded02c5eb55a14f3f5446eeb2f802c67658b0c00e725b908967a9ac37e",
+  "mesh_nodes": 141,
+  "baked_atlases": 98,
+  "materials": 114,
+  "embedded_images": 102,
+  "all_resources_embedded": true,
+  "all_accessor_bounds_finite": true,
+  "source_detail_textures_preserved": true,
+  "unlit_atlas_materials": true,
+  "plain_white_seats_preserved": true,
+  "passed": true
+}

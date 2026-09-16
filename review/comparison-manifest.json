@@ -4,41 +4,41 @@
     "source": "references/partial/0030.jpg",
     "render": "renders/final-video_0030.png",
     "comparison": "renders/comparison-0030.png",
-    "revision": "video-r14"
+    "revision": "r20"
   },
   {
     "timestamp": "03:30",
     "source": "references/partial/0210.jpg",
     "render": "renders/final-video_0330.png",
     "comparison": "renders/comparison-0330.png",
-    "revision": "video-r14"
+    "revision": "r20"
   },
   {
     "timestamp": "06:30",
     "source": "references/partial/0390.jpg",
     "render": "renders/final-video_0630.png",
     "comparison": "renders/comparison-0630.png",
-    "revision": "video-r14"
+    "revision": "r20"
   },
   {
     "timestamp": "07:30",
     "source": "references/partial/0450.jpg",
     "render": "renders/final-video_0730.png",
     "comparison": "renders/comparison-0730.png",
-    "revision": "video-r14"
+    "revision": "r20"
   },
   {
     "timestamp": "14:30",
     "source": "references/partial/0870.jpg",
     "render": "renders/final-video_1430.png",
     "comparison": "renders/comparison-1430.png",
-    "revision": "video-r14"
+    "revision": "r20"
   },
   {
     "timestamp": "14:52",
     "source": "references/decoded/00892.00s.jpg",
     "render": "renders/final-video_1452.png",
     "comparison": "renders/comparison-1452.png",
-    "revision": "video-r14"
+    "revision": "r20"
   }
 ]

@@ -1,0 +1,1827 @@
+{
+  "source_revision": "r20",
+  "source_sha256": "bbd5bbdf6614cbc4fb58709ba55f3de85986f53a48d63c7ec3d1900b56691f72",
+  "scope": "full",
+  "size": 1024,
+  "samples": 32,
+  "exposure": -0.5,
+  "device": "GPU",
+  "source_components": 7456,
+  "normal_repairs": [
+    {
+      "name": "Theatre rounded white seat back",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.001",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.002",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.003",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.004",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.005",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.006",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.007",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.008",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.009",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.010",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.011",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.012",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.013",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.014",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.015",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.016",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.017",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.018",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.019",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.020",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.021",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.022",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.023",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.024",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.025",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.026",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.027",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.028",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.029",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.030",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.031",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.032",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.033",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.034",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.035",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.036",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.037",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.038",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.039",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.040",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.041",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.042",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.043",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.044",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.045",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.046",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.047",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.048",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.049",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.050",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.051",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.052",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.053",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.054",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.055",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.056",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.057",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.058",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.059",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.060",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.061",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.062",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.063",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.064",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.065",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.066",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.067",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.068",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.069",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.070",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.071",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.072",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.073",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.074",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.075",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.076",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.077",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.078",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.079",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.080",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.081",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.082",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.083",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.084",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.085",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.086",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.087",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.088",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.089",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.090",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.091",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.092",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.093",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.094",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.095",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.096",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.097",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.098",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.099",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.100",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.101",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.102",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.103",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.104",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.105",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.106",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.107",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.108",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.109",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.110",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.111",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.112",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.113",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.114",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.115",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.116",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.117",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.118",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.119",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.120",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.121",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.122",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.123",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.124",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.125",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.126",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.127",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.128",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.129",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.130",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.131",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.132",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.133",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.134",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.135",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.136",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.137",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.138",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.139",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.140",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.141",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.142",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.143",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.144",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.145",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.146",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.147",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.148",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.149",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.150",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.151",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.152",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.153",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.154",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.155",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.156",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.157",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.158",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.159",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.160",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.161",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.162",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.163",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.164",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.165",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.166",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.167",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.168",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.169",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.170",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.171",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.172",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.173",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.174",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.175",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.176",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.177",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.178",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.179",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.180",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.181",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.182",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.183",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.184",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.185",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.186",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.187",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.188",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.189",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.190",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.191",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.192",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.193",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.194",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.195",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.196",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.197",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.198",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.199",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.200",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.201",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.202",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.203",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.204",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.205",
+      "original_volume": -0.011692994317922019
+    },
+    {
+      "name": "Theatre rounded white seat back.206",
+      "original_volume": -0.011692994317922019
+    }
+  ],
+  "closed_meshes_checked": 7395,
+  "open_meshes_untouched": 61,
+  "groups": [
+    {
+      "name": "00_01_z-1_x00_shell0",
+      "objects": 4,
+      "polygons": 312,
+      "size": 2048,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 162540
+    },
+    {
+      "name": "01_01_z-1_x02_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 2048,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.04,
+      "texture_bytes": 102187
+    },
+    {
+      "name": "02_01_z-1_x01_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 31611
+    },
+    {
+      "name": "03_01_z00_x-2_shell0",
+      "objects": 5,
+      "polygons": 30,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 23417
+    },
+    {
+      "name": "04_01_z00_x-1_shell0",
+      "objects": 11,
+      "polygons": 402,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 73320
+    },
+    {
+      "name": "05_01_z00_x00_shell0",
+      "objects": 16,
+      "polygons": 96,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 27372
+    },
+    {
+      "name": "06_01_z00_x01_shell0",
+      "objects": 6,
+      "polygons": 36,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 20904
+    },
+    {
+      "name": "07_01_z00_x02_shell0",
+      "objects": 13,
+      "polygons": 78,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 127631
+    },
+    {
+      "name": "08_02_z-1_x-1_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 36745
+    },
+    {
+      "name": "09_02_z00_x-1_shell0",
+      "objects": 5,
+      "polygons": 36,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 95473
+    },
+    {
+      "name": "10_02_z01_x-1_shell0",
+      "objects": 3,
+      "polygons": 18,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 90389
+    },
+    {
+      "name": "11_02_z02_x-1_shell0",
+      "objects": 8,
+      "polygons": 48,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 96434
+    },
+    {
+      "name": "12_02_z03_x-1_shell0",
+      "objects": 4,
+      "polygons": 24,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 93515
+    },
+    {
+      "name": "13_02_z04_x-1_shell0",
+      "objects": 3,
+      "polygons": 18,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 61368
+    },
+    {
+      "name": "14_02_z02_x-2_shell0",
+      "objects": 7,
+      "polygons": 42,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 168531
+    },
+    {
+      "name": "15_02_z02_x00_shell0",
+      "objects": 6,
+      "polygons": 36,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 238301
+    },
+    {
+      "name": "16_02_z02_x01_shell0",
+      "objects": 5,
+      "polygons": 30,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 197083
+    },
+    {
+      "name": "17_02_z03_x00_shell0",
+      "objects": 4,
+      "polygons": 24,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 82909
+    },
+    {
+      "name": "18_02_z04_x00_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 44135
+    },
+    {
+      "name": "19_02_z03_x01_shell0",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 112163
+    },
+    {
+      "name": "20_02_z05_x-1_shell0",
+      "objects": 4,
+      "polygons": 24,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 65172
+    },
+    {
+      "name": "21_02_z06_x-1_shell0",
+      "objects": 17,
+      "polygons": 102,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 137020
+    },
+    {
+      "name": "22_02_z07_x-1_shell0",
+      "objects": 4,
+      "polygons": 24,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 60740
+    },
+    {
+      "name": "23_02_z06_x-2_shell0",
+      "objects": 12,
+      "polygons": 72,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 136706
+    },
+    {
+      "name": "24_02_z-1_x-2_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 26286
+    },
+    {
+      "name": "25_02_z00_x-2_shell0",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 46467
+    },
+    {
+      "name": "26_02_z01_x-2_shell0",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 48215
+    },
+    {
+      "name": "27_02_z03_x-2_shell0",
+      "objects": 4,
+      "polygons": 24,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 166230
+    },
+    {
+      "name": "28_02_z04_x-2_shell0",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 48844
+    },
+    {
+      "name": "29_02_z05_x-2_shell0",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 47612
+    },
+    {
+      "name": "30_02_z07_x-2_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 72332
+    },
+    {
+      "name": "31_03_z-1_x00_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 37781
+    },
+    {
+      "name": "32_03_z00_x-2_shell0",
+      "objects": 8,
+      "polygons": 576,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 90465
+    },
+    {
+      "name": "33_03_z00_x-1_shell0",
+      "objects": 20,
+      "polygons": 1512,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 130843
+    },
+    {
+      "name": "34_03_z00_x00_shell0",
+      "objects": 16,
+      "polygons": 1038,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 57392
+    },
+    {
+      "name": "35_03_z00_x01_shell0",
+      "objects": 10,
+      "polygons": 828,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 94426
+    },
+    {
+      "name": "36_03_z01_x-1_shell0",
+      "objects": 71,
+      "polygons": 4218,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.04,
+      "texture_bytes": 83128
+    },
+    {
+      "name": "37_03_z01_x01_shell0",
+      "objects": 27,
+      "polygons": 1794,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 108910
+    },
+    {
+      "name": "38_03_z01_x-2_shell0",
+      "objects": 28,
+      "polygons": 1512,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 111066
+    },
+    {
+      "name": "39_03_z01_x00_shell0",
+      "objects": 50,
+      "polygons": 2802,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 70143
+    },
+    {
+      "name": "40_03_z02_x-1_shell0",
+      "objects": 68,
+      "polygons": 3336,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 109498
+    },
+    {
+      "name": "41_03_z02_x01_shell0",
+      "objects": 44,
+      "polygons": 2184,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 116489
+    },
+    {
+      "name": "42_03_z02_x-2_shell0",
+      "objects": 26,
+      "polygons": 1212,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 187288
+    },
+    {
+      "name": "43_03_z02_x00_shell0",
+      "objects": 46,
+      "polygons": 2196,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 145081
+    },
+    {
+      "name": "44_03_z03_x-2_shell0",
+      "objects": 1,
+      "polygons": 54,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 20533
+    },
+    {
+      "name": "45_04_z00_x01_shell0",
+      "objects": 32,
+      "polygons": 432,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 74379
+    },
+    {
+      "name": "46_04_z01_x01_shell0",
+      "objects": 47,
+      "polygons": 666,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 114910
+    },
+    {
+      "name": "47_04_z02_x01_shell0",
+      "objects": 44,
+      "polygons": 840,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 104190
+    },
+    {
+      "name": "48_04_z01_x00_shell0",
+      "objects": 27,
+      "polygons": 354,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 118508
+    },
+    {
+      "name": "49_04_z00_x00_shell0",
+      "objects": 18,
+      "polygons": 204,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 87333
+    },
+    {
+      "name": "50_04_z02_x00_shell0",
+      "objects": 24,
+      "polygons": 432,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 91580
+    },
+    {
+      "name": "51_04_z02_x01_shell1",
+      "objects": 40,
+      "polygons": 240,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 71137
+    },
+    {
+      "name": "52_04_z00_x01_shell1",
+      "objects": 33,
+      "polygons": 198,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 49240
+    },
+    {
+      "name": "53_04_z01_x01_shell1",
+      "objects": 53,
+      "polygons": 318,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 188779
+    },
+    {
+      "name": "54_04_z01_x00_shell1",
+      "objects": 12,
+      "polygons": 72,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 127384
+    },
+    {
+      "name": "55_04_z00_x00_shell1",
+      "objects": 2,
+      "polygons": 12,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 48092
+    },
+    {
+      "name": "56_05_z00_x01_shell0",
+      "objects": 27,
+      "polygons": 1458,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.03,
+      "texture_bytes": 164369
+    },
+    {
+      "name": "57_05_z00_x00_shell0",
+      "objects": 2,
+      "polygons": 60,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 52230
+    },
+    {
+      "name": "58_05_z01_x00_shell0",
+      "objects": 28,
+      "polygons": 1464,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 142235
+    },
+    {
+      "name": "59_05_z00_x-2_shell0",
+      "objects": 2,
+      "polygons": 108,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 67457
+    },
+    {
+      "name": "60_05_z00_x-1_shell0",
+      "objects": 1,
+      "polygons": 54,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 43661
+    },
+    {
+      "name": "61_06_z01_shell0",
+      "objects": 19,
+      "polygons": 114,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 153368
+    },
+    {
+      "name": "62_06_z02_shell0",
+      "objects": 14,
+      "polygons": 175,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 93302
+    },
+    {
+      "name": "63_06_z00_shell0",
+      "objects": 21,
+      "polygons": 126,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 176223
+    },
+    {
+      "name": "64_07_z03_shell0",
+      "objects": 11,
+      "polygons": 66,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.03,
+      "texture_bytes": 126345
+    },
+    {
+      "name": "65_07_z07_shell0",
+      "objects": 11,
+      "polygons": 66,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 114557
+    },
+    {
+      "name": "66_07_z05_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 40665
+    },
+    {
+      "name": "67_07_z08_shell0",
+      "objects": 5,
+      "polygons": 30,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 73015
+    },
+    {
+      "name": "68_07_z06_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 29354
+    },
+    {
+      "name": "69_08_z00_shell0",
+      "objects": 119,
+      "polygons": 4618,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.06,
+      "texture_bytes": 39552
+    },
+    {
+      "name": "70_08_z01_shell0",
+      "objects": 8,
+      "polygons": 48,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 73850
+    },
+    {
+      "name": "71_08_z02_shell0",
+      "objects": 8,
+      "polygons": 48,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 67698
+    },
+    {
+      "name": "72_09_z00_shell0",
+      "objects": 94,
+      "polygons": 6970,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.04,
+      "texture_bytes": 117938
+    },
+    {
+      "name": "73_09_z01_shell0",
+      "objects": 28,
+      "polygons": 2688,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.02,
+      "texture_bytes": 157410
+    },
+    {
+      "name": "74_11_z00_shell0",
+      "objects": 268,
+      "polygons": 12016,
+      "size": 4096,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.14,
+      "texture_bytes": 858177
+    },
+    {
+      "name": "75_11_z-1_shell0",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 27725
+    },
+    {
+      "name": "76_11_z01_shell0",
+      "objects": 279,
+      "polygons": 12884,
+      "size": 4096,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.15,
+      "texture_bytes": 1153654
+    },
+    {
+      "name": "77_11_z02_shell0",
+      "objects": 230,
+      "polygons": 10882,
+      "size": 4096,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.15,
+      "texture_bytes": 1242148
+    },
+    {
+      "name": "78_11_z03_shell0",
+      "objects": 228,
+      "polygons": 10822,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.09,
+      "texture_bytes": 136558
+    },
+    {
+      "name": "79_11_z04_shell0",
+      "objects": 228,
+      "polygons": 10822,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.09,
+      "texture_bytes": 118580
+    },
+    {
+      "name": "80_11_z05_shell0",
+      "objects": 228,
+      "polygons": 10822,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.08,
+      "texture_bytes": 119748
+    },
+    {
+      "name": "81_11_z06_shell0",
+      "objects": 228,
+      "polygons": 10822,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.08,
+      "texture_bytes": 126897
+    },
+    {
+      "name": "82_11_z07_shell0",
+      "objects": 117,
+      "polygons": 6372,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.08,
+      "texture_bytes": 114239
+    },
+    {
+      "name": "83_11_z02_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 4096,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.07,
+      "texture_bytes": 737653
+    },
+    {
+      "name": "84_11_z03_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 76382
+    },
+    {
+      "name": "85_11_z04_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 74649
+    },
+    {
+      "name": "86_11_z05_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 74306
+    },
+    {
+      "name": "87_11_z06_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 74019
+    },
+    {
+      "name": "88_11_z07_shell1",
+      "objects": 1,
+      "polygons": 6,
+      "size": 1024,
+      "exposure": -1.100000023841858,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 68002
+    },
+    {
+      "name": "89_12_z00_shell0",
+      "objects": 9,
+      "polygons": 161,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 79056
+    },
+    {
+      "name": "90_12_z03_shell0",
+      "objects": 1,
+      "polygons": 10,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 156872
+    },
+    {
+      "name": "91_12_z02_shell0",
+      "objects": 11,
+      "polygons": 82,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 190300
+    },
+    {
+      "name": "92_12_z01_shell0",
+      "objects": 9,
+      "polygons": 54,
+      "size": 1024,
+      "exposure": -0.5,
+      "cached": true,
+      "seconds": 0.01,
+      "texture_bytes": 111381
+    },
+    {
+      "name": "93_13_z00_shell1",
+      "objects": 4,
+      "polygons": 24,
+      "size": 4096,
+      "exposure": -0.75,
+      "cached": true,
+      "seconds": 0.07,
+      "texture_bytes": 955969
+    },
+    {
+      "name": "94_13_z-1_shell0",
+      "objects": 3,
+      "polygons": 18,
+      "size": 4096,
+      "exposure": -0.75,
+      "cached": true,
+      "seconds": 0.07,
+      "texture_bytes": 561468
+    },
+    {
+      "name": "95_13_z00_shell0",
+      "objects": 83,
+      "polygons": 2610,
+      "size": 4096,
+      "exposure": -0.75,
+      "seconds": 76.71,
+      "texture_bytes": 1164119
+    },
+    {
+      "name": "96_13_z01_shell0",
+      "objects": 17,
+      "polygons": 102,
+      "size": 4096,
+      "exposure": -0.75,
+      "cached": true,
+      "seconds": 0.07,
+      "texture_bytes": 779643
+    },
+    {
+      "name": "97_13_z01_shell1",
+      "objects": 10,
+      "polygons": 60,
+      "size": 4096,
+      "exposure": -0.75,
+      "cached": true,
+      "seconds": 0.07,
+      "texture_bytes": 687918
+    }
+  ],
+  "seconds": 144.0,
+  "glb_bytes": 59593116,
+  "output": "/home/horde/projects/astra-dgp/viewer/bahen-lit.glb",
+  "glb_sha256": "bad12eded02c5eb55a14f3f5446eeb2f802c67658b0c00e725b908967a9ac37e"
+}

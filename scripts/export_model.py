@@ -2,7 +2,7 @@
 The native .blend retains procedural Cycles materials. GLB uses authored tiled
 color approximations; glazing is simplified in the browser for performance.
 """
-import bpy,sys,json,math
+import bpy,bmesh,sys,json,math
 from pathlib import Path
 from mathutils import Vector
 P=Path(__file__).resolve().parents[1]
@@ -11,6 +11,7 @@ texture_map={'Brick':'cream-brick','Heritage brick':'heritage-brick','Red brick'
 imgs={}
 for m in bpy.data.materials:
  base=m.name.replace(' XZ','').replace(' YZ','');key=texture_map.get(base)
+ if m.get('source_texture'):continue
  if not key:
   if m.use_nodes:
    n=m.node_tree.nodes;l=m.node_tree.links;p=n.get('Principled BSDF')
@@ -31,7 +32,8 @@ for o in list(bpy.data.objects):
   bpy.context.view_layer.objects.active=o;o.select_set(True);bpy.ops.object.convert(target='MESH');o.select_set(False)
 for o in bpy.data.objects:
  if o.type!='MESH':continue
- if o.name.startswith(('Theatre ceiling','Theatre side wall','Theatre front wall','Theatre back wall','Video gallery low ceiling','Video upper corridor ceiling','Video central low ceiling')):o['cutaway_shell']=True
+ if o.get('preserve_uv'):continue
+ if o.name.startswith(('Theatre ceiling','Theatre side wall','Theatre front wall','Theatre back wall','Video gallery low ceiling','Video upper corridor ceiling','Video central low ceiling','Polish lobby ceiling','Polish theatre daylight','Polish theatre recess')):o['cutaway_shell']=True
  uv=o.data.uv_layers.new(name='UVMap') if not o.data.uv_layers else o.data.uv_layers.active
  for poly in o.data.polygons:
   normal=(o.matrix_world.to_3x3()@poly.normal).normalized();axis=max(range(3),key=lambda i:abs(normal[i]));mat=o.data.materials[poly.material_index] if o.data.materials else None
@@ -39,6 +41,14 @@ for o in bpy.data.objects:
   for li in poly.loop_indices:
    v=o.matrix_world@o.data.vertices[o.data.loops[li].vertex_index].co
    u,w=(v.y,v.z) if axis==0 else ((v.x,v.z) if axis==1 else (v.x,v.y));uv.data[li].uv=(u/sx,w/sy)
+# Portable closed surfaces need outward normals, including the rounded chairs.
+normal_repairs=[]
+for o in bpy.data.objects:
+ if o.type!='MESH':continue
+ bm=bmesh.new();bm.from_mesh(o.data)
+ if bm.faces and all(e.is_manifold for e in bm.edges) and bm.calc_volume(signed=True)<-1e-9:
+  bmesh.ops.reverse_faces(bm,faces=list(bm.faces));bm.normal_update();bm.to_mesh(o.data);o.data.update();normal_repairs.append(o.name)
+ bm.free()
 # Collection grouping permits intuitive visibility and cutaways in any viewer.
 for c in bpy.data.collections:
  if c.name=='Collection':continue
@@ -48,5 +58,5 @@ for c in bpy.data.collections:
 for o in list(bpy.data.objects):
  if o.type in ['LIGHT','CAMERA']:bpy.data.objects.remove(o,do_unlink=True)
 bpy.ops.export_scene.gltf(filepath=str(P/'bahen-centre.glb'),export_format='GLB',export_apply=True,export_cameras=False,export_lights=False,export_extras=True,export_yup=True)
-report={'bytes':(P/'bahen-centre.glb').stat().st_size,'objects':len(bpy.data.objects),'material_tiles':list(imgs),'native_materials':'Procedural in .blend','portable_materials':'Authored tiled base color and palette fallback for procedural materials; no photographic textures or baked lighting'}
+report={'outward_normal_repairs':normal_repairs,'bytes':(P/'bahen-centre.glb').stat().st_size,'objects':len(bpy.data.objects),'material_tiles':list(imgs),'native_materials':'Procedural in .blend','portable_materials':'Authored tiled base color and palette fallback for procedural materials; source-derived detail textures; no baked lighting in this editable GLB'}
 (P/'review/export-report.json').write_text(json.dumps(report,indent=2))

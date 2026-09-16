@@ -1,8 +1,9 @@
 {
-  "mesh_objects": 7099,
+  "mesh_objects": 7417,
   "cameras": [
     "atrium_east",
     "atrium_west",
+    "audit_lobby_offset",
     "exterior",
     "landing",
     "lantern",
@@ -14,10 +15,12 @@
     "video_0730",
     "video_1430",
     "video_1452",
+    "video_1452_offset",
     "video_central"
   ],
   "units": "metres",
   "external_image_dependencies": false,
-  "saved_revision": "video-r14",
-  "passed": true
+  "saved_revision": "r20",
+  "passed": true,
+  "native_scene_sha256": "bbd5bbdf6614cbc4fb58709ba55f3de85986f53a48d63c7ec3d1900b56691f72"
 }

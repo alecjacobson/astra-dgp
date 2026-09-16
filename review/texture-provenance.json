@@ -1,0 +1,114 @@
+[
+  {
+    "texture": "source-monitor.jpg",
+    "source": "references/judge-route/detail-0898.00.jpg",
+    "pixel_corners_tl_tr_br_bl": [
+      [
+        910,
+        20
+      ],
+      [
+        1179,
+        69
+      ],
+      [
+        1169,
+        254
+      ],
+      [
+        898,
+        229
+      ]
+    ],
+    "size": [
+      1024,
+      640
+    ],
+    "method": "Perspective rectification of actual unobstructed video surface; no generated text"
+  },
+  {
+    "texture": "source-notices.jpg",
+    "source": "references/judge-route/detail-0891.30.jpg",
+    "pixel_corners_tl_tr_br_bl": [
+      [
+        1068,
+        24
+      ],
+      [
+        1235,
+        62
+      ],
+      [
+        1221,
+        503
+      ],
+      [
+        1037,
+        549
+      ]
+    ],
+    "size": [
+      512,
+      1280
+    ],
+    "method": "Perspective rectification of actual unobstructed video surface; no generated text"
+  },
+  {
+    "texture": "source-lobby-notices.jpg",
+    "source": "references/judge-route/detail-0885.50.jpg",
+    "pixel_corners_tl_tr_br_bl": [
+      [
+        596,
+        108
+      ],
+      [
+        726,
+        101
+      ],
+      [
+        722,
+        254
+      ],
+      [
+        595,
+        258
+      ]
+    ],
+    "size": [
+      512,
+      640
+    ],
+    "method": "Partial source composite: one clean rectified patch from the left portion of the real lobby noticeboard; complete board and original overall paper arrangement are not recovered. No foreground grid, generated text, or duplicated paper patches.",
+    "source_video": "GGaJsGu_5zA",
+    "synthetic_content": false
+  },
+  {
+    "texture": "source-recycling-front.jpg",
+    "source": "references/judge-route/detail-0886.40.jpg",
+    "pixel_corners_tl_tr_br_bl": [
+      [
+        330,
+        372
+      ],
+      [
+        602,
+        382
+      ],
+      [
+        592,
+        534
+      ],
+      [
+        327,
+        518
+      ]
+    ],
+    "size": [
+      768,
+      448
+    ],
+    "method": "Rectified actual recycling-bin front with original colored labels; text remains at source readability. Purple lid and foreground presenter excluded.",
+    "source_video": "GGaJsGu_5zA",
+    "synthetic_content": false
+  }
+]
