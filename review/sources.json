@@ -1,0 +1,18 @@
+{
+  "requested_video": "https://www.youtube.com/watch?v=GGaJsGu_5zA&t=892s",
+  "video_title": "APS162 Tangent: Form versus Function: A Tour of the Bahen Centre",
+  "access": "Direct video decoding and exact 14:52 frame blocked by YouTube login/bot challenge. Public preview frames retrieved successfully; their timestamps are not established.",
+  "inspected_video_frames": [
+    {"file":"references/thumb.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/maxresdefault.jpg","observations":"Stair landing, pale blue frosted guards, dark wood handrails, round column, wood doors."},
+    {"file":"references/video-sd1.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd1.jpg","observations":"Built in dark timber bench against pale wall, dark plinth, gray aggregate floor."},
+    {"file":"references/video-sd2.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd2.jpg","observations":"Round exposed concrete column, dark horizontal guard bars, purple-gray upper fascia, timber bench."},
+    {"file":"references/video-sd3.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd3.jpg","observations":"Glazed exit doors, pale wall and brick beyond, handrail at level change."}
+  ],
+  "supplemental_references": [
+    {"url":"https://updc.utoronto.ca/project/bahen-centre/","files":"references/university-*.jpg","credit":"University of Toronto UPDC; Roberta Baker / Makeda Marc-Ali as indicated on source page"},
+    {"url":"https://campusevents.utoronto.ca/event-spaces/centrally-shared-spaces/bahen-centre/","files":"references/judge/events-*.jpg","credit":"University of Toronto Campus Events"},
+    {"url":"https://www.tboake.com/sustain_casestudies/edited/Bahen-Centre.pdf","use":"Text description only; image download blocked","credit":"Nathaniel Lloyd / University of Waterloo"}
+  ],
+  "measurement_status": "No survey, camera calibration, or photogrammetric recovery. Metre dimensions, exterior footprint, hidden spaces, and precise feature placement are inferred.",
+  "publication": "Third-party photographs retained locally for review; public repo publishes authored model renders and source URLs."
+}
