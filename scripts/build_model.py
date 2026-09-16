@@ -362,7 +362,7 @@ for yy in [6.8,8.5,10.2,25,26.7]:
  pts=[(35.7,yy-.5,0),(35.7,yy-.5,.8),(35.7,yy-.4,.92),(35.7,yy+.4,.92),(35.7,yy+.5,.8),(35.7,yy+.5,0)];curve('Bicycle rack',pts,.035,'Metal')
 
 collection('10 Lighting and cameras')
-scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.samples=48;scene.cycles.use_denoising=True
+scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.length_unit='METERS';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=48;scene.cycles.use_denoising=True
 try:
  prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type='OPTIX';prefs.get_devices()
  for d in prefs.devices:d.use=d.type=='OPTIX'

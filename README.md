@@ -19,7 +19,7 @@ A photo-guided model of the University of Toronto's Bahen Centre, with its publi
 
 Six numbered build revisions, a final packaging build, and six rendered passes refined the geometry. An independent judging agent reviewed the initial, fourth and final views against the source photographs. Corrections include atrium height, window reveals, glazing rhythm, stair orientation/access, landing joints, heritage roof alignment, material mapping and lighting artifacts.
 
-[Iteration record](review/ITERATIONS.md) · [Independent reviews](review/) · [Source catalog](review/sources.json) · [Progress screenshots](progress/history.md)
+[Render gallery](https://alecjacobson.github.io/astra-dgp/gallery.html) · [Iteration record](review/ITERATIONS.md) · [Independent reviews](review/) · [Source catalog](review/sources.json) · [Progress screenshots](progress/history.md)
 
 Progress screenshots were committed approximately every ten minutes during active development; the final checkpoint is added on completion. Third-party reference images are retained locally and are not republished in this repository.
 
@@ -41,7 +41,7 @@ cd ..
 python scripts/assemble_viewer.py
 ```
 
-To serve the unbundled viewer locally, run `python -m http.server 8766` in the repository and open `http://localhost:8766/viewer/`. `scripts/test_viewer.py` checks loading, controls, screenshots, keyboard navigation, mobile layout, and offline portability using Playwright/Chromium. Render width and samples can be set with `BAHEN_WIDTH` and `BAHEN_SAMPLES`; Cycles falls back to CPU when OptiX is unavailable.
+To serve the unbundled viewer locally, run `python -m http.server 8766` in the repository and open `http://localhost:8766/viewer/`. `scripts/test_viewer.py` checks loading, controls, screenshots, keyboard navigation, mobile layout, and offline portability using Playwright/Chromium. Render width and samples can be set with `BAHEN_WIDTH` and `BAHEN_SAMPLES`; Cycles falls back to CPU when OptiX is unavailable. Set `BAHEN_CHROME` to choose a Chromium executable for browser tests.
 
 ## References and credits
 

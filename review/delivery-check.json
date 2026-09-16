@@ -1,0 +1,115 @@
+{
+  "offline": {
+    "status": 200,
+    "state": {
+      "loaded": true,
+      "view": "exterior",
+      "cutaway": false,
+      "meshes": 76,
+      "camera": [
+        83.99999999999999,
+        62.00000000000001,
+        87
+      ],
+      "drawCalls": 85,
+      "triangles": 389989,
+      "visibleMeshes": 76,
+      "layers": [
+        "01_Site",
+        "02_Envelope",
+        "03_Atrium_structure",
+        "04_Heritage_Koffler_wall",
+        "05_Circulation",
+        "06_Retained_house",
+        "07_Roofs",
+        "08_Interior_details",
+        "09_Landscape"
+      ]
+    },
+    "landing": {
+      "loaded": true,
+      "view": "landing",
+      "cutaway": false,
+      "meshes": 76,
+      "camera": [
+        18.8,
+        5.849999999999998,
+        2.1000000000000014
+      ],
+      "drawCalls": 75,
+      "triangles": 377509,
+      "visibleMeshes": 76,
+      "layers": [
+        "01_Site",
+        "02_Envelope",
+        "03_Atrium_structure",
+        "04_Heritage_Koffler_wall",
+        "05_Circulation",
+        "06_Retained_house",
+        "07_Roofs",
+        "08_Interior_details",
+        "09_Landscape"
+      ]
+    }
+  },
+  "public": {
+    "status": 200,
+    "state": {
+      "loaded": true,
+      "view": "exterior",
+      "cutaway": false,
+      "meshes": 76,
+      "camera": [
+        83.99999999999999,
+        62.00000000000001,
+        87
+      ],
+      "drawCalls": 85,
+      "triangles": 389989,
+      "visibleMeshes": 76,
+      "layers": [
+        "01_Site",
+        "02_Envelope",
+        "03_Atrium_structure",
+        "04_Heritage_Koffler_wall",
+        "05_Circulation",
+        "06_Retained_house",
+        "07_Roofs",
+        "08_Interior_details",
+        "09_Landscape"
+      ]
+    },
+    "landing": {
+      "loaded": true,
+      "view": "landing",
+      "cutaway": false,
+      "meshes": 76,
+      "camera": [
+        18.8,
+        5.849999999999998,
+        2.1000000000000014
+      ],
+      "drawCalls": 75,
+      "triangles": 377509,
+      "visibleMeshes": 76,
+      "layers": [
+        "01_Site",
+        "02_Envelope",
+        "03_Atrium_structure",
+        "04_Heritage_Koffler_wall",
+        "05_Circulation",
+        "06_Retained_house",
+        "07_Roofs",
+        "08_Interior_details",
+        "09_Landscape"
+      ]
+    }
+  },
+  "sha256": {
+    "bahen-centre.blend": "9f9259bc7c7980452da500db324750c3d422a97d6ec16b1e3ae2a079aadfa548",
+    "bahen-centre.glb": "74979613e893cfb15686e2a3aff8725e674ca04f1fd7238db906ddca04a3467e",
+    "bahen-centre-viewer.html": "f3ce12ba286130689a631dc13eb8429d19521960c736aa0ee380891ea52ede9a"
+  },
+  "page_errors": [],
+  "passed": true
+}

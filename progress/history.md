@@ -5,3 +5,5 @@
 - 20260916-165137 UTC — [r03-exterior.png](20260916-165137.png)
 
 - 20260916-170145 UTC — [final-atrium_west.png](20260916-170145.png)
+
+- 20260916-170828 UTC — [Final public viewer, verified online](20260916-170828.png). Development session complete; periodic publishing stopped.

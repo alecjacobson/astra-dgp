@@ -1,0 +1,16 @@
+{
+  "mesh_objects": 4536,
+  "cameras": [
+    "atrium_east",
+    "atrium_west",
+    "exterior",
+    "landing",
+    "lantern",
+    "overview",
+    "street"
+  ],
+  "units": "metres",
+  "external_image_dependencies": false,
+  "saved_revision": "final",
+  "passed": true
+}
