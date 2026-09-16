@@ -13,3 +13,5 @@
 - 20260916-174400 UTC — [Actual 14:52 source versus R06 baseline](20260916-174400.png). Full source MP4 acquired from archived YouTube media; 135 timestamped frames decoded across 43:01.6. This comparison exposes the incorrect generic landing and starts the video-driven rebuild.
 
 - 20260916-175237 UTC — [video-r10-video_1430.png](20260916-175237.png)
+
+- 20260916-180244 UTC — [video-r12-comparison-0030.png](20260916-180244.png)
