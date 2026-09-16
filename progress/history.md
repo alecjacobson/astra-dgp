@@ -33,3 +33,5 @@
 - 20260916-193055 UTC — [comparison-0730.png](20260916-193055.png)
 
 - 20260916-194057 UTC — [browser-mobile-stair.png](20260916-194057.png)
+
+- 20260916-195100 UTC — [browser-cutaway.png](20260916-195100.png)
