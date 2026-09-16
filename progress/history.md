@@ -7,3 +7,5 @@
 - 20260916-170145 UTC — [final-atrium_west.png](20260916-170145.png)
 
 - 20260916-170828 UTC — [Final public viewer, verified online](20260916-170828.png). Development session complete; periodic publishing stopped.
+
+- 20260916-173324 UTC — [Full-video access attempt](20260916-173324-video-access.png). Actual browser playback is blocked by YouTube sign-in verification; current model geometry is unchanged. See [acquisition record](../review/VIDEO_ACQUISITION.md).
