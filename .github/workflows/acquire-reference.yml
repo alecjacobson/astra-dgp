@@ -1,0 +1,30 @@
+name: Acquire tour reference
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install downloader
+        run: |
+          python -m pip install 'yt-dlp[default]'
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Download public reference video
+        run: |
+          mkdir -p reference
+          python -m yt_dlp --js-runtimes node --remote-components ejs:github --socket-timeout 30 --retries 2 -f 'bv*[height<=1080]+ba/best' --merge-output-format mp4 --write-info-json -o 'reference/tour.%(ext)s' 'https://www.youtube.com/watch?v=GGaJsGu_5zA'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bahen-tour-reference
+          path: reference/
+          retention-days: 1
