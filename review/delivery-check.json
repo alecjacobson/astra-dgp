@@ -3,17 +3,21 @@
     "status": 200,
     "state": {
       "loaded": true,
-      "view": "exterior",
+      "sourceComponents": 7456,
+      "textureMode": "full",
+      "estimatedTextureMiB": 1285,
+      "maxAtlasSize": 4096,
+      "view": "landing",
       "cutaway": false,
-      "meshes": 117,
+      "meshes": 141,
       "camera": [
-        83.99999999999999,
-        62.00000000000001,
-        87
+        -11.5,
+        5.800000000000001,
+        12.8
       ],
-      "drawCalls": 130,
-      "triangles": 870652,
-      "visibleMeshes": 117,
+      "drawCalls": 230,
+      "triangles": 1552182,
+      "visibleMeshes": 141,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -22,8 +26,10 @@
         "05_Circulation",
         "06_Retained_house",
         "07_Roofs",
+        "07_Roofs_and_skylights",
         "08_Interior_details",
         "09_Landscape",
+        "10_Lighting_and_cameras",
         "11_Video_central_circulation",
         "12_Video_street_and_entry",
         "13_Video_lecture_theatre"
@@ -31,17 +37,21 @@
     },
     "landing": {
       "loaded": true,
+      "sourceComponents": 7456,
+      "textureMode": "full",
+      "estimatedTextureMiB": 1285,
+      "maxAtlasSize": 4096,
       "view": "landing",
       "cutaway": false,
-      "meshes": 117,
+      "meshes": 141,
       "camera": [
         -11.5,
         5.800000000000001,
         12.8
       ],
-      "drawCalls": 116,
-      "triangles": 866896,
-      "visibleMeshes": 117,
+      "drawCalls": 230,
+      "triangles": 1552182,
+      "visibleMeshes": 141,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -50,8 +60,10 @@
         "05_Circulation",
         "06_Retained_house",
         "07_Roofs",
+        "07_Roofs_and_skylights",
         "08_Interior_details",
         "09_Landscape",
+        "10_Lighting_and_cameras",
         "11_Video_central_circulation",
         "12_Video_street_and_entry",
         "13_Video_lecture_theatre"
@@ -62,17 +74,21 @@
     "status": 200,
     "state": {
       "loaded": true,
-      "view": "exterior",
+      "sourceComponents": 7456,
+      "textureMode": "full",
+      "estimatedTextureMiB": 1285,
+      "maxAtlasSize": 4096,
+      "view": "landing",
       "cutaway": false,
-      "meshes": 117,
+      "meshes": 141,
       "camera": [
-        83.99999999999999,
-        62.00000000000001,
-        87
+        -11.5,
+        5.800000000000001,
+        12.8
       ],
-      "drawCalls": 130,
-      "triangles": 870652,
-      "visibleMeshes": 117,
+      "drawCalls": 230,
+      "triangles": 1552182,
+      "visibleMeshes": 141,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -81,8 +97,10 @@
         "05_Circulation",
         "06_Retained_house",
         "07_Roofs",
+        "07_Roofs_and_skylights",
         "08_Interior_details",
         "09_Landscape",
+        "10_Lighting_and_cameras",
         "11_Video_central_circulation",
         "12_Video_street_and_entry",
         "13_Video_lecture_theatre"
@@ -90,17 +108,21 @@
     },
     "landing": {
       "loaded": true,
+      "sourceComponents": 7456,
+      "textureMode": "full",
+      "estimatedTextureMiB": 1285,
+      "maxAtlasSize": 4096,
       "view": "landing",
       "cutaway": false,
-      "meshes": 117,
+      "meshes": 141,
       "camera": [
         -11.5,
         5.800000000000001,
         12.8
       ],
-      "drawCalls": 116,
-      "triangles": 866896,
-      "visibleMeshes": 117,
+      "drawCalls": 230,
+      "triangles": 1552182,
+      "visibleMeshes": 141,
       "layers": [
         "01_Site",
         "02_Envelope",
@@ -109,18 +131,22 @@
         "05_Circulation",
         "06_Retained_house",
         "07_Roofs",
+        "07_Roofs_and_skylights",
         "08_Interior_details",
         "09_Landscape",
+        "10_Lighting_and_cameras",
         "11_Video_central_circulation",
         "12_Video_street_and_entry",
         "13_Video_lecture_theatre"
       ]
     }
   },
+  "public_asset_matches_local": true,
   "sha256": {
-    "bahen-centre.blend": "49d841ff0f45d7dbbd8a592251633ad03d993d982ea98dd9823ddff0b47c6151",
-    "bahen-centre.glb": "0bd65f722aeb897a81d73d47381b9fdd20ba7d161d13f3f611ec6e3f72e09d1d",
-    "bahen-centre-viewer.html": "f9490804cda1da2d2dc24dc68cd8b1ddb68df1d3d9033e0087984d14558c0e19"
+    "bahen-centre.blend": "bbd5bbdf6614cbc4fb58709ba55f3de85986f53a48d63c7ec3d1900b56691f72",
+    "bahen-centre.glb": "97b5f3c6152bd4855bf1dabde4f23500d452c17130b7392efe1c8c6c80ff5cf9",
+    "bahen-centre-viewer.html": "57d9b92aa2451c480902d51a9e72c705af882f5b9036c4e5fa91a4b2bc83c485",
+    "viewer/bahen-lit.glb": "bad12eded02c5eb55a14f3f5446eeb2f802c67658b0c00e725b908967a9ac37e"
   },
   "page_errors": [],
   "passed": true

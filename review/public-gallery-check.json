@@ -1,0 +1,15 @@
+{
+  "gallery_matches_local": true,
+  "images_match_local": [
+    "renders/comparison-1452.png",
+    "renders/comparison-1430.png",
+    "renders/comparison-0030.png",
+    "renders/comparison-0330.png",
+    "renders/comparison-0630.png",
+    "renders/comparison-0730.png",
+    "renders/final-exterior.png",
+    "renders/final-video_1430.png",
+    "review/video-iterations.jpg"
+  ],
+  "passed": true
+}
