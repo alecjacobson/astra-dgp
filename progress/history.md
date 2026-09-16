@@ -11,3 +11,5 @@
 - 20260916-173324 UTC — [Full-video access attempt](20260916-173324-video-access.png). Actual browser playback is blocked by YouTube sign-in verification; current model geometry is unchanged. See [acquisition record](../review/VIDEO_ACQUISITION.md).
 
 - 20260916-174400 UTC — [Actual 14:52 source versus R06 baseline](20260916-174400.png). Full source MP4 acquired from archived YouTube media; 135 timestamped frames decoded across 43:01.6. This comparison exposes the incorrect generic landing and starts the video-driven rebuild.
+
+- 20260916-175237 UTC — [video-r10-video_1430.png](20260916-175237.png)
