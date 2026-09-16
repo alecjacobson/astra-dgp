@@ -21,3 +21,5 @@
 - 20260916-181937 UTC — [Final video-guided stair comparison](20260916-181937.png). R14 geometry, six timestamped comparison pairs, independent final review, updated Blender/GLB/online and offline viewers.
 
 - 20260916-184025 UTC — [r15-video_1452.png](20260916-184025.png)
+
+- 20260916-185032 UTC — [r17-video_0630.png](20260916-185032.png)
