@@ -1,0 +1,6 @@
+references/
+*.blend1
+*.log
+__pycache__/
+node_modules/
+.stop-publisher
