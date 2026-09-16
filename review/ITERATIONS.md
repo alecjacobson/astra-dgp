@@ -20,3 +20,19 @@ Three public preview stills and a larger stair-landing thumbnail were recovered 
 The browser uses simplified transparent glazing and environment lighting; the native Cycles scene is the rendering reference. Camera comparisons are qualitative, not pixel-registered or calibrated.
 
 Final packaging closed a 3 m skylight transition gap, set explicit metric display units, and saved a compressed native scene. Final exact-file checks passed for the GLB, offline viewer, and public GitHub Pages viewer; hashes are in delivery-check.json. Browser controls were tested against the preceding R06 export, then the final exported scene was loaded separately online/offline and its landing view checked.
+
+## Video-driven rebuild, R07–R14
+
+The full original MP4 was recovered17:40UTC on2026-09-16 after direct yt-dlp attempts failed. This supersedes the preview-only evidence above.135 frames were decoded across43:01.6; exact892s is frame26760. Independent review traced second-floor2133 → illuminated stair → third-floor Great Hall, and later floors through8.
+
+- **R07:** rebuilt2133 cream/dark door pair, monitor/noticeboard, illuminated stair, curved glazing. First renders exposed collisions with inherited columns/guards and reversed screen convergence of the stair.
+- **R08–R09:** removed legacy collisions, replaced21-riser full-storey run with two straight flights and a turn, corrected door crop and room number. Initial global registrations remain inferred.
+- **R10:** changed stair camera side/yaw; matched the source's up-left ascent. Adjusted2133 numeral, handle height, projecting screen and dark adjacent door. Joined approach floor to stair foot.
+- **R11:** added street louvre bay, punched windows, raked lecture theatre and three banks of sliding chalkboards. Changed horizontal guard direction to follow the source opening.
+- **R12:** lowered central-stair camera aim, corrected floor openings, moved lobby background closer, added outer entry door bank and metal-collared columns. Corrected lecture tier height and added repeated upper circulation as inferred geometry.
+- **R13:** blue lower guard with clear extension; actual glass thickness; rounded theatre chair profiles; bright aluminum board tracks; low lobby ceiling. Independent judge accepted the14:30/14:52 assemblies as source-guided approximations. Selected720p anchor errors were7–16.4pixels, a local diagnostic only.
+- **R14:** separated theatre tiers around the aisle to remove coplanar overlap; moved entrance-side stairs behind the foreground column with true gallery openings; restored exterior roof/enclosure context after the central rebuild; reduced glass roughness. Re-rendered all six video comparison cameras and overall views.
+
+Limits retained explicitly: no measured dimensions, no full camera calibration, concealed rooms and overall footprint are inferred. Some video frames are much more closely reproduced than others. The source presenter is excluded from architectural matching; text on notices/monitor is abstracted. Browser materials/lighting are simplified relative to Cycles.
+
+The final browser screenshot caught an additional export issue: glTF had substituted white for unsupported procedural colors on the central timber rails and theatre desks. Export now converts unsupported procedural colors to their authored palette swatches, while retaining the seven tiled materials. The GLB audit explicitly checks the three dark fallback materials. This changes only portable material export, not the reviewed native geometry.

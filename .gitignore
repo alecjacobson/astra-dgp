@@ -6,3 +6,6 @@ node_modules/
 .stop-publisher
 viewer/node_modules
 renders/r[0-9]*
+
+# Video-loop working renders; final images and progress checkpoints are published.
+renders/video-r[0-9]*.png

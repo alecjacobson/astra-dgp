@@ -1,18 +1,88 @@
 {
   "requested_video": "https://www.youtube.com/watch?v=GGaJsGu_5zA&t=892s",
   "video_title": "APS162 Tangent: Form versus Function: A Tour of the Bahen Centre",
-  "access": "Direct video decoding and exact 14:52 frame blocked by YouTube login/bot challenge. Public preview frames retrieved successfully; their timestamps are not established.",
-  "inspected_video_frames": [
-    {"file":"references/thumb.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/maxresdefault.jpg","observations":"Stair landing, pale blue frosted guards, dark wood handrails, round column, wood doors."},
-    {"file":"references/video-sd1.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd1.jpg","observations":"Built in dark timber bench against pale wall, dark plinth, gray aggregate floor."},
-    {"file":"references/video-sd2.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd2.jpg","observations":"Round exposed concrete column, dark horizontal guard bars, purple-gray upper fascia, timber bench."},
-    {"file":"references/video-sd3.jpg","url":"https://i.ytimg.com/vi/GGaJsGu_5zA/sd3.jpg","observations":"Glazed exit doors, pale wall and brick beyond, handrail at level change."}
-  ],
+  "access": "Resolved: complete original 720p MP4 recovered from archived Googlevideo media after direct yt-dlp bot challenges.135 frames decoded across43:01.567 including exact14:52.",
   "supplemental_references": [
-    {"url":"https://updc.utoronto.ca/project/bahen-centre/","files":"references/university-*.jpg","credit":"University of Toronto UPDC; Roberta Baker / Makeda Marc-Ali as indicated on source page"},
-    {"url":"https://campusevents.utoronto.ca/event-spaces/centrally-shared-spaces/bahen-centre/","files":"references/judge/events-*.jpg","credit":"University of Toronto Campus Events"},
-    {"url":"https://www.tboake.com/sustain_casestudies/edited/Bahen-Centre.pdf","use":"Text description only; image download blocked","credit":"Nathaniel Lloyd / University of Waterloo"}
+    {
+      "url": "https://updc.utoronto.ca/project/bahen-centre/",
+      "files": "references/university-*.jpg",
+      "credit": "University of Toronto UPDC; Roberta Baker / Makeda Marc-Ali as indicated on source page"
+    },
+    {
+      "url": "https://campusevents.utoronto.ca/event-spaces/centrally-shared-spaces/bahen-centre/",
+      "files": "references/judge/events-*.jpg",
+      "credit": "University of Toronto Campus Events"
+    },
+    {
+      "url": "https://www.tboake.com/sustain_casestudies/edited/Bahen-Centre.pdf",
+      "use": "Text description only; image download blocked",
+      "credit": "Nathaniel Lloyd / University of Waterloo"
+    }
   ],
   "measurement_status": "No survey, camera calibration, or photogrammetric recovery. Metre dimensions, exterior footprint, hidden spaces, and precise feature placement are inferred.",
-  "publication": "Third-party photographs retained locally for review; public repo publishes authored model renders and source URLs."
+  "publication": "Full MP4 and complete frame collection stay local. Selected short timestamped source frames are shown only in labeled comparison images with source attribution. All model views are actual geometry renders.",
+  "original_video": {
+    "sha256": "fdb1b1d7fcfa29512ef56a0d6b944976d5178c36e6d563b3dc69018a3fac5d5f",
+    "fps": 30.0,
+    "frame_count": 77447.0,
+    "duration_seconds": 2581.5666666666666,
+    "archive_url": "https://web.archive.org/web/2oe_/http://wayback-fakeurl.archive.org/yt/GGaJsGu_5zA",
+    "local_path": "references/tour.mp4",
+    "bytes": 288339080,
+    "stream": "video-only itag136,1280x720"
+  },
+  "preview_frames_first_draft": [
+    {
+      "file": "references/thumb.jpg",
+      "url": "https://i.ytimg.com/vi/GGaJsGu_5zA/maxresdefault.jpg",
+      "observations": "Stair landing, pale blue frosted guards, dark wood handrails, round column, wood doors."
+    },
+    {
+      "file": "references/video-sd1.jpg",
+      "url": "https://i.ytimg.com/vi/GGaJsGu_5zA/sd1.jpg",
+      "observations": "Built in dark timber bench against pale wall, dark plinth, gray aggregate floor."
+    },
+    {
+      "file": "references/video-sd2.jpg",
+      "url": "https://i.ytimg.com/vi/GGaJsGu_5zA/sd2.jpg",
+      "observations": "Round exposed concrete column, dark horizontal guard bars, purple-gray upper fascia, timber bench."
+    },
+    {
+      "file": "references/video-sd3.jpg",
+      "url": "https://i.ytimg.com/vi/GGaJsGu_5zA/sd3.jpg",
+      "observations": "Glazed exit doors, pale wall and brick beyond, handrail at level change."
+    }
+  ],
+  "timestamped_model_targets": [
+    {
+      "seconds": 30,
+      "camera": "video_0030",
+      "features": "large street louvre bay, recessed base, framed entry doors"
+    },
+    {
+      "seconds": 210,
+      "camera": "video_0330",
+      "features": "heritage wall, plum entrance mat, modern stair"
+    },
+    {
+      "seconds": 390,
+      "camera": "video_0630",
+      "features": "raked theatre, continuous desks, white seat backs"
+    },
+    {
+      "seconds": 450,
+      "camera": "video_0730",
+      "features": "three banks of sliding chalkboards, clerestory"
+    },
+    {
+      "seconds": 870,
+      "camera": "video_1430",
+      "features": "illuminated risers, rounded timber handrails, frosted lower guard and clear upper extension"
+    },
+    {
+      "seconds": 892,
+      "camera": "video_1452",
+      "features": "cream2133 door, dark adjacent door, lever/card hardware, projecting purple monitor, noticeboard"
+    }
+  ]
 }

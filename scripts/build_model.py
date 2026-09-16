@@ -233,14 +233,12 @@ for o in COL['04 Heritage Koffler wall'].objects:
  if not o.name.startswith('Koffler'):
   o.location.z*=.83;o.scale.z*=.83
 collection('05 Circulation')
-stairs(27,2.3,0,-7,4.2,1.85,25,'East main stair')
-cube('First landing',(18.8,2.3,4.08),(2.4,1.9,.24),'Floor')
-stairs(17.6,2.3,4.2,-7,4.2,1.85,25,'Second main stair')
-cube('Upper stair landing',(10.6,3.4,8.28),(2.4,5,.24),'Floor')
-cube('Landing connection to north gallery',(18.8,1.55,4.08),(2.4,8.7,.24),'Floor')
-rail((17.6,-2.8),(17.6,3.65),4.2)
-rail((20,-2.8),(20,1.32),4.2)
-rail((17.6,-2.8),(20,-2.8),4.2)
+stairs(27,4.8,0,-7,4.2,1.85,25,'East main stair')
+cube('First landing',(18.8,4.8,4.08),(2.4,1.9,.24),'Floor')
+stairs(17.6,4.8,4.2,-7,4.2,1.85,25,'Second main stair')
+cube('Upper stair landing',(10.6,4.8,8.28),(2.4,5,.24),'Floor')
+
+
 cube('Upper landing wall header',(18.7,6.05,7.65),(8,.25,1),'Plaster')
 # Upper landing frontage and doors observed in the video thumbnail.
 for x,w in [(14.8,3.2),(18,1.3),(21.7,2.2)]:
@@ -361,6 +359,10 @@ for x in [-28,-19,-10]:
 for yy in [6.8,8.5,10.2,25,26.7]:
  pts=[(35.7,yy-.5,0),(35.7,yy-.5,.8),(35.7,yy-.4,.92),(35.7,yy+.4,.92),(35.7,yy+.5,.8),(35.7,yy+.5,0)];curve('Bicycle rack',pts,.035,'Metal')
 
+exec(compile((P/'scripts/video_geometry.py').read_text(),str(P/'scripts/video_geometry.py'),'exec'))
+
+exec(compile((P/'scripts/video_spaces.py').read_text(),str(P/'scripts/video_spaces.py'),'exec'))
+
 collection('10 Lighting and cameras')
 scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.length_unit='METERS';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=48;scene.cycles.use_denoising=True
 try:
@@ -397,7 +399,7 @@ n=world.node_tree.nodes;l=world.node_tree.links;bg=n.get('Background');out=n.get
 for a in bpy.context.screen.areas:
  if a.type=='VIEW_3D':
   a.spaces.active.region_3d.view_distance=100;a.spaces.active.region_3d.view_location=(0,0,12)
-scene['evidence']='YouTube public preview frames + University of Toronto photos. Exact 14:52 unavailable.'
+scene['evidence']='Full video GGaJsGu_5zA downloaded and decoded. Video circulation assembly grounded in 14:30,14:52,16:30 frames. Global registration and hidden geometry inferred.'
 scene['scale_note']='Metres. Dimensions and concealed geometry inferred, not survey measured.'
 scene['revision']=os.getenv('BAHEN_REV','r01')
 bpy.ops.wm.save_as_mainfile(filepath=str(P/'bahen-centre.blend'),compress=True)

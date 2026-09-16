@@ -11,4 +11,10 @@ for m in j['meshes']:
   assert 'POSITION' in prim['attributes'];assert prim['mode']==4 if 'mode' in prim else True
 for im in j.get('images',[]):assert 'bufferView' in im,'External image dependency'
 assert all('uri' not in v for v in j['buffers']), 'External geometry dependency'
-r={'format':'glTF 2.0 binary','bytes':len(b),'meshes':len(j['meshes']),'nodes':len(j['nodes']),'materials':len(j['materials']),'embedded_images':len(j.get('images',[])),'required_extensions':j.get('extensionsRequired',[]),'all_accessor_bounds_finite':True,'all_resources_embedded':True,'checks_passed':True};(P/'review/glb-audit.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2))
+palette={}
+for name in ['Video timber','Video tread','Theatre desk']:
+ m=next(m for m in j['materials'] if m['name']==name)
+ c=m['pbrMetallicRoughness'].get('baseColorFactor',[1,1,1,1])
+ assert max(c[:3])<.15,f'{name} lost its dark authored color: {c}'
+ palette[name]=c
+r={'procedural_palette_fallback':palette,'format':'glTF 2.0 binary','bytes':len(b),'meshes':len(j['meshes']),'nodes':len(j['nodes']),'materials':len(j['materials']),'embedded_images':len(j.get('images',[])),'required_extensions':j.get('extensionsRequired',[]),'all_accessor_bounds_finite':True,'all_resources_embedded':True,'checks_passed':True};(P/'review/glb-audit.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2))

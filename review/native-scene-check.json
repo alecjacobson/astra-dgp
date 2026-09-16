@@ -1,5 +1,5 @@
 {
-  "mesh_objects": 4536,
+  "mesh_objects": 7099,
   "cameras": [
     "atrium_east",
     "atrium_west",
@@ -7,10 +7,17 @@
     "landing",
     "lantern",
     "overview",
-    "street"
+    "street",
+    "video_0030",
+    "video_0330",
+    "video_0630",
+    "video_0730",
+    "video_1430",
+    "video_1452",
+    "video_central"
   ],
   "units": "metres",
   "external_image_dependencies": false,
-  "saved_revision": "final",
+  "saved_revision": "video-r14",
   "passed": true
 }

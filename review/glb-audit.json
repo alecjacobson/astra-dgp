@@ -1,9 +1,29 @@
 {
+  "procedural_palette_fallback": {
+    "Video timber": [
+      0.039546236395835876,
+      0.02518685907125473,
+      0.01850022003054619,
+      1
+    ],
+    "Video tread": [
+      0.052860647439956665,
+      0.0666259378194809,
+      0.06847816705703735,
+      1
+    ],
+    "Theatre desk": [
+      0.02955683507025242,
+      0.016807375475764275,
+      0.01599629409611225,
+      1
+    ]
+  },
   "format": "glTF 2.0 binary",
-  "bytes": 23863976,
-  "meshes": 4565,
-  "nodes": 4575,
-  "materials": 31,
+  "bytes": 51378504,
+  "meshes": 7139,
+  "nodes": 7152,
+  "materials": 54,
   "embedded_images": 7,
   "required_extensions": [],
   "all_accessor_bounds_finite": true,

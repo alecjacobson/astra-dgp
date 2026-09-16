@@ -10,7 +10,7 @@ with sync_playwright() as p:
  page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://127.0.0.1:8766/viewer/index.html',wait_until='load');page.wait_for_function('window.bahen?.state.loaded',timeout=120000);page.wait_for_timeout(2500)
  result['initial']=page.evaluate('window.bahen.state');print(result['initial'],flush=True);page.screenshot(path=str(P/'renders/browser-exterior.png'))
- for name in ['east','landing','cutaway','west']:
+ for name in ['east','landing','room2133','theatre','boards','street','cutaway','west']:
   page.locator(f'[data-view="{name}"]').click();page.wait_for_timeout(1500);state=page.evaluate('window.bahen.state');assert state['view']==name;result[name]=state
   if name=='cutaway':assert state['visibleMeshes']<result['initial']['visibleMeshes'], 'Cutaway did not change visibility'
   if name in ['east','cutaway','landing']:page.screenshot(path=str(P/f'renders/browser-{name}.png'))

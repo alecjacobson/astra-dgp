@@ -24,3 +24,5 @@ After the yt-dlp, browser, PO-token and clean-runner attempts above, the Interne
 It resolves to a 2026-04-25 capture of Googlevideo itag136, video_id=GGaJsGu_5zA. Downloaded with Python requests streaming to local `references/tour.mp4` (288,339,080 bytes). This is the video-only 720p track; audio is unnecessary for frame reconstruction. OpenCV decodes 77,447 frames at30fps, 2581.5667 seconds. `scripts/extract_video_frames.py` successfully decoded135 timestamped frames spanning the entire file, including exact892s frame26760. Full hash and frame metadata are in `review/frame-catalog.json`. The full movie stays local; published comparisons cite short reference frames.
 
 The earlier failure records above are historical and superseded by this successful acquisition.
+
+Reproduction: `python scripts/acquire_video.py` first tries yt-dlp and then the archive media endpoint. An existing complete local MP4 is preserved and its SHA256 reported. The successful local file hashes to `fdb1b1d7fcfa29512ef56a0d6b944976d5178c36e6d563b3dc69018a3fac5d5f`.

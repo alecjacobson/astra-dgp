@@ -11,7 +11,16 @@ texture_map={'Brick':'cream-brick','Heritage brick':'heritage-brick','Red brick'
 imgs={}
 for m in bpy.data.materials:
  base=m.name.replace(' XZ','').replace(' YZ','');key=texture_map.get(base)
- if not key:continue
+ if not key:
+  if m.use_nodes:
+   n=m.node_tree.nodes;l=m.node_tree.links;p=n.get('Principled BSDF')
+   if p:
+    # glTF cannot evaluate arbitrary procedural color nodes. Preserve authored
+    # material swatch instead of allowing the exporter to substitute white.
+    for sock in ['Base Color','Normal']:
+     for li in list(p.inputs[sock].links):l.remove(li)
+    p.inputs['Base Color'].default_value=m.diffuse_color
+  continue
  n=m.node_tree.nodes;l=m.node_tree.links;p=n.get('Principled BSDF')
  if not p:continue
  for sock in ['Base Color','Normal']:
@@ -22,6 +31,7 @@ for o in list(bpy.data.objects):
   bpy.context.view_layer.objects.active=o;o.select_set(True);bpy.ops.object.convert(target='MESH');o.select_set(False)
 for o in bpy.data.objects:
  if o.type!='MESH':continue
+ if o.name.startswith(('Theatre ceiling','Theatre side wall','Theatre front wall','Theatre back wall','Video gallery low ceiling','Video upper corridor ceiling','Video central low ceiling')):o['cutaway_shell']=True
  uv=o.data.uv_layers.new(name='UVMap') if not o.data.uv_layers else o.data.uv_layers.active
  for poly in o.data.polygons:
   normal=(o.matrix_world.to_3x3()@poly.normal).normalized();axis=max(range(3),key=lambda i:abs(normal[i]));mat=o.data.materials[poly.material_index] if o.data.materials else None
@@ -38,5 +48,5 @@ for c in bpy.data.collections:
 for o in list(bpy.data.objects):
  if o.type in ['LIGHT','CAMERA']:bpy.data.objects.remove(o,do_unlink=True)
 bpy.ops.export_scene.gltf(filepath=str(P/'bahen-centre.glb'),export_format='GLB',export_apply=True,export_cameras=False,export_lights=False,export_extras=True,export_yup=True)
-report={'bytes':(P/'bahen-centre.glb').stat().st_size,'objects':len(bpy.data.objects),'material_tiles':list(imgs),'native_materials':'Procedural in .blend','portable_materials':'Authored tiled base color; no photographic textures or baked lighting'}
+report={'bytes':(P/'bahen-centre.glb').stat().st_size,'objects':len(bpy.data.objects),'material_tiles':list(imgs),'native_materials':'Procedural in .blend','portable_materials':'Authored tiled base color and palette fallback for procedural materials; no photographic textures or baked lighting'}
 (P/'review/export-report.json').write_text(json.dumps(report,indent=2))

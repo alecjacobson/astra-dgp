@@ -17,3 +17,5 @@
 - 20260916-180244 UTC — [video-r12-comparison-0030.png](20260916-180244.png)
 
 - 20260916-181252 UTC — [video-r14-atrium_west.png](20260916-181252.png)
+
+- 20260916-181937 UTC — [Final video-guided stair comparison](20260916-181937.png). R14 geometry, six timestamped comparison pairs, independent final review, updated Blender/GLB/online and offline viewers.

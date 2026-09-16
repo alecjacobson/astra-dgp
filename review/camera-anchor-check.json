@@ -1,0 +1,74 @@
+{
+  "reference": "YouTube GGaJsGu_5zA, manually identified pixels in frames870/892s",
+  "resolution": [
+    1280,
+    720
+  ],
+  "limitations": "Selected local anchors only. Camera pose, dimensions and source pixels approximate; no full-image or overall-building accuracy claim.",
+  "cameras": {
+    "video_1452": [
+      {
+        "anchor": "2133 numeral centre",
+        "source_pixel": [
+          372,
+          279
+        ],
+        "projected_pixel": [
+          386.9,
+          280.6
+        ],
+        "distance_pixels": 15.0
+      },
+      {
+        "anchor": "lever midpoint",
+        "source_pixel": [
+          445,
+          455
+        ],
+        "projected_pixel": [
+          450.7,
+          459.2
+        ],
+        "distance_pixels": 7.0
+      }
+    ],
+    "video_1430": [
+      {
+        "anchor": "left round handrail cap",
+        "source_pixel": [
+          234,
+          489
+        ],
+        "projected_pixel": [
+          248.3,
+          496.9
+        ],
+        "distance_pixels": 16.4
+      },
+      {
+        "anchor": "right round handrail cap",
+        "source_pixel": [
+          730,
+          440
+        ],
+        "projected_pixel": [
+          741.4,
+          433.8
+        ],
+        "distance_pixels": 13.0
+      },
+      {
+        "anchor": "right front newel foot",
+        "source_pixel": [
+          687,
+          660
+        ],
+        "projected_pixel": [
+          702.1,
+          660.1
+        ],
+        "distance_pixels": 15.1
+      }
+    ]
+  }
+}
